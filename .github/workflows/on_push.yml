@@ -1,0 +1,14 @@
+name: Triggered on push
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Fist
+    runs-on: ubuntu-latest
+    steps:
+      - name: 101
+        uses: actions/checkout@v2
+
