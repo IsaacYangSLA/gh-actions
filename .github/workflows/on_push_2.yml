@@ -1,0 +1,16 @@
+name: Triggered on push 2
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Second
+    runs-on: [self-hosted, Linux, X64]
+    steps:
+      - name: Name201
+        uses: actions/checkout@v2
+      - name: Name202
+        run: pwd; ls -lR; sleep 120; echo "End13"
+
