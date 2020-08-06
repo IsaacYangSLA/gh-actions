@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Fist
+    name: First
     runs-on: [self-hosted, Linux, X64]
     steps:
       - name: Name101
