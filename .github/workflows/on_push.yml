@@ -1,4 +1,4 @@
-name: Triggered on push
+name: Triggered on push 1
 on:
   push:
     branches:
