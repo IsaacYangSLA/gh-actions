@@ -7,10 +7,10 @@ on:
 jobs:
   build:
     name: Fist
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64]
     steps:
-      - name: 101
+      - name: Name101
         uses: actions/checkout@v2
-      - name: 102
+      - name: Name102
         run: pwd; ls -lR; sleep 120; echo "End"
 
