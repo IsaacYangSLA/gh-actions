@@ -1,4 +1,4 @@
-name: Triggered on push 1
+name: Push 1
 on:
   push:
     branches:
@@ -7,10 +7,10 @@ on:
 jobs:
   build:
     name: First
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
     steps:
       - name: Name101
         uses: actions/checkout@v2
       - name: Name102
-        run: pwd; ls -lR; sleep 120; echo "End13"
+        run: env
 
